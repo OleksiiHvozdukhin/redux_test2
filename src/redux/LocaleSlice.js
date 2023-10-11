@@ -13,7 +13,6 @@ export const localeReducer = (
     default:
       return state;
   }
-  return state;
 };
 
 export const changeLang = newLang => {
