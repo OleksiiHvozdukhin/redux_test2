@@ -4,15 +4,6 @@ import { devToolsEnhancer } from '@redux-devtools/extension';
 import { accountReducer } from './AccountSlice';
 import { localeReducer } from './LocaleSlice';
 
-const initionalState = {
-  account: {
-    balance: 5,
-  },
-  locale: {
-    lang: 'uk',
-  },
-};
-
 const rootReducer = combineReducers({
   account: accountReducer,
   locale: localeReducer,
